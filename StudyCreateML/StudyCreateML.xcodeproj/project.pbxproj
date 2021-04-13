@@ -13,6 +13,7 @@
 		19DD0867262549B700BFDDA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DD0865262549B700BFDDA2 /* Main.storyboard */; };
 		19DD0869262549B800BFDDA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19DD0868262549B800BFDDA2 /* Assets.xcassets */; };
 		19DD086C262549B800BFDDA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19DD086A262549B800BFDDA2 /* LaunchScreen.storyboard */; };
+		19DD087526254E2D00BFDDA2 /* HelloWorldClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 19DD087426254E2D00BFDDA2 /* HelloWorldClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		19DD0868262549B800BFDDA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19DD086B262549B800BFDDA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19DD086D262549B800BFDDA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19DD087426254E2D00BFDDA2 /* HelloWorldClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HelloWorldClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		19DD085E262549B700BFDDA2 /* StudyCreateML */ = {
 			isa = PBXGroup;
 			children = (
+				19DD087426254E2D00BFDDA2 /* HelloWorldClassifier.mlmodel */,
 				19DD085F262549B700BFDDA2 /* AppDelegate.swift */,
 				19DD0861262549B700BFDDA2 /* SceneDelegate.swift */,
 				19DD0863262549B700BFDDA2 /* ViewController.swift */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19DD0864262549B700BFDDA2 /* ViewController.swift in Sources */,
+				19DD087526254E2D00BFDDA2 /* HelloWorldClassifier.mlmodel in Sources */,
 				19DD0860262549B700BFDDA2 /* AppDelegate.swift in Sources */,
 				19DD0862262549B700BFDDA2 /* SceneDelegate.swift in Sources */,
 			);
